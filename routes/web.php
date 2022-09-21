@@ -24,3 +24,7 @@ Route::get('login', function () { // link url
 Route::get('checkout', function () {
     return view('checkout');
 })->name('checkout');
+
+Route::get('success-checkout', function () {
+    return view('success_checkout');
+})->name('success-checkout');
